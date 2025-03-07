@@ -1,0 +1,15 @@
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\bin\Debug\net9.0\Curso_Csharp-iniciante.exe
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\bin\Debug\net9.0\Curso_Csharp-iniciante.deps.json
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\bin\Debug\net9.0\Curso_Csharp-iniciante.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\bin\Debug\net9.0\Curso_Csharp-iniciante.dll
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\bin\Debug\net9.0\Curso_Csharp-iniciante.pdb
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\Curso_Csharp-iniciante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\Curso_Csharp-iniciante.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\Curso_Csharp-iniciante.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\Curso_Csharp-iniciante.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\Curso_Csharp-iniciante.sourcelink.json
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\Curso_Csharp-iniciante.dll
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\refint\Curso_Csharp-iniciante.dll
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\Curso_Csharp-iniciante.pdb
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\Curso_Csharp-iniciante.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\ProjetosGithub\MyPrivateProjects\Curso_Csharp-iniciante\obj\Debug\net9.0\ref\Curso_Csharp-iniciante.dll

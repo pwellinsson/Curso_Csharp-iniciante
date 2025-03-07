@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Curso_Csharp-iniciante/1.0.0": {
+        "runtime": {
+          "Curso_Csharp-iniciante.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Curso_Csharp-iniciante/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
