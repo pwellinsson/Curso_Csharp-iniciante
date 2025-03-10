@@ -17,7 +17,14 @@ string - Sequência de caracteres
 - 64 bits (-9.223.372.036.854.775.808 a 9.223.372.036.854.775.807)
 - 128 bits (-79.228.162.514.264.337.593.543.950.335 a 7.922.8162.514.264.337.593.543.950.335)
 */
-double b = 1.5;
-string a = "Hi Guys";
-Console.WriteLine(b);
-Console.WriteLine(a);
+/* Mostrando uso de tipos e variáveis.
+int i; // Informando o tipo
+int i2 = i = 20; // Informando o valor
+i++; // Adicionando incremento
+
+i2 = i2 == 42 ? 30 : 10; // Operador ternário
+
+// Adicionado um incremento ao "i" mas não teve efeito no "i2".
+Console.WriteLine(i); // 21
+Console.WriteLine(i2); // 20
+*/
