@@ -5,7 +5,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <RootNamespace>Curso_Csharp_iniciante</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <!-- Não será usada por enquanto.
+    <Nullable>enable</Nullable>-->
   </PropertyGroup>
 
 </Project>

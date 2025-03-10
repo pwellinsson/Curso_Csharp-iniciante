@@ -1,6 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
 /* Tipos mais comuns do C#
 bool - true ou false
 char - Um único caractere
@@ -27,4 +25,26 @@ i2 = i2 == 42 ? 30 : 10; // Operador ternário
 // Adicionado um incremento ao "i" mas não teve efeito no "i2".
 Console.WriteLine(i); // 21
 Console.WriteLine(i2); // 20
+*/
+/* ¿input? interpolação e IF ELSE
+// Write não quebra linha, WriteLine quebra linha.
+Console.Write("Digite o seu nome: ");
+string name = Console.ReadLine();
+
+// Concatenação
+// Console.WriteLine("Olá " + name + "!");
+
+// Interpolação
+Console.Write($"Olá {name}, Digite o seu ano de nascimento: ");
+int year = int.Parse(Console.ReadLine());
+int age = DateTime.Now.Year - year;
+Console.WriteLine($"Você tem {age} anos.");
+
+if (age > 18) {
+    Console.WriteLine("Você é maior de idade.");
+} else if (age == 18) {
+    Console.WriteLine("Você tem exatamente 18 anos.");
+} else {
+    Console.WriteLine("Você é menor de idade.");
+}
 */
