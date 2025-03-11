@@ -26,7 +26,7 @@ i2 = i2 == 42 ? 30 : 10; // Operador ternário
 Console.WriteLine(i); // 21
 Console.WriteLine(i2); // 20
 */
-/* ¿input? interpolação e IF ELSE
+/* ¿input? interpolação, IF ELSE e logic operators.
 // Write não quebra linha, WriteLine quebra linha.
 Console.Write("Digite o seu nome: ");
 string name = Console.ReadLine();
@@ -42,9 +42,39 @@ Console.WriteLine($"Você tem {age} anos.");
 
 if (age > 18) {
     Console.WriteLine("Você é maior de idade.");
-} else if (age == 18) {
-    Console.WriteLine("Você tem exatamente 18 anos.");
+} else if (age == 18 && name == "Wellinsson") {
+    Console.WriteLine("Congratulations!");
 } else {
     Console.WriteLine("Você é menor de idade.");
+}
+*/
+
+/* Usando arrays, for e classes.
+class Person
+{
+    // void = sem retorno
+    static void Main() //Primeiro método executado
+    {
+        string[] name = { "Pedro", "Wellinsson", "Romilda", "Eduardo", "Jadilsson", "Alberto", "Natasha" };
+
+        Console.WriteLine("Os nomes registados são: ");
+
+        for (int c = 0; c < name.Length; c++)
+        {
+            Console.Write(name[c]);
+            if (c < name.Length - 2)
+            {
+                Console.Write(", ");
+            }
+            else if (c == name.Length - 2)
+            {
+                Console.Write(" e ");
+            }
+            else
+            {
+                Console.WriteLine(".");
+            }
+        }
+    }
 }
 */
