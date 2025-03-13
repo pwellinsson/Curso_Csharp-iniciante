@@ -49,7 +49,7 @@ if (age > 18) {
 }
 */
 
-/* Usando arrays, for e classes.
+/* Usando arrays, for e classes. */
 class Person
 {
     // void = sem retorno
@@ -58,7 +58,7 @@ class Person
         string[] name = { "Pedro", "Wellinsson", "Romilda", "Eduardo", "Jadilsson", "Alberto", "Natasha" };
 
         Console.WriteLine("Os nomes registados são: ");
-
+        /* For e Foreach
         for (int c = 0; c < name.Length; c++)
         {
             Console.Write(name[c]);
@@ -75,6 +75,36 @@ class Person
                 Console.WriteLine(".");
             }
         }
+
+        // Para cada(string nome em name)
+        foreach (string n in name)
+        {
+            Console.WriteLine(n);
+        }
+        */
+        /* Comparação de strings e Manipulação de strings(Métodos)
+
+        if (string.Equals(name[1], "wellinsson", StringComparison.OrdinalIgnoreCase))
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("Tudo Certo \n");
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Nome errado \n");
+        }
+        Console.ResetColor();
+
+        Console.WriteLine(name.Length); // Mostra o tamanho do array
+        Console.WriteLine(name[0].StartsWith("Pe")); // Verifica se o nome comecou com Pe.
+        Console.WriteLine(name[0].EndsWith("ro")); // Verifica se o nome terminou com ro.
+        Console.WriteLine(name[0].Contains("dr")); // Verifica se o nome contém dr.
+        Console.WriteLine(name[0].IndexOf("dr")); // Mostra a posição do dr(-1 se não estiver).
+        Console.WriteLine(name[0].ToUpper()); // ToUpper Deixa tudo maiúsculo e ToLower deixa tudo minúsculo.
+
+        Console.WriteLine(string.IsNullOrWhiteSpace(name[1])); // Verifica se o nome é nulo ou tem espaço(s).
+        Console.WriteLine(string.Join(" - ", name)); // Junta os nomes com " - " como separador.
+        */
     }
 }
-*/
