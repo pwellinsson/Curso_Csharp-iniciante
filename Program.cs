@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-/* Tipos mais comuns do C#
+﻿/* Tipos mais comuns do C#
 bool - true ou false
 char - Um único caractere
 byte - Inteiro de 8 bits unsigned
@@ -57,8 +56,9 @@ class Person
     {
         string[] name = { "Pedro", "Wellinsson", "Romilda", "Eduardo", "Jadilsson", "Alberto", "Natasha" };
 
-        Console.WriteLine("Os nomes registados são: ");
         /* For e Foreach
+        Console.WriteLine("Os nomes registados são: ");
+
         for (int c = 0; c < name.Length; c++)
         {
             Console.Write(name[c]);
@@ -105,6 +105,16 @@ class Person
 
         Console.WriteLine(string.IsNullOrWhiteSpace(name[1])); // Verifica se o nome é nulo ou tem espaço(s).
         Console.WriteLine(string.Join(" - ", name)); // Junta os nomes com " - " como separador.
+
+        int n = 5;
+        string s = n.ToString();
+        Console.WriteLine(s);
         */
+
+        int? i = 10; // ? indica que pode ser nulo.
+
+        i = null;
+
+        Console.WriteLine(i.GetValueOrDefault(10)); // Se "i for nulo, i retornará 10.
     }
 }
