@@ -111,10 +111,28 @@ class Person
         Console.WriteLine(s);
         */
 
+        /* Valores Nulos
         int? i = 10; // ? indica que pode ser nulo.
+        Console.WriteLine(i.GetValueOrDefault(0));
 
         i = null;
 
-        Console.WriteLine(i.GetValueOrDefault(10)); // Se "i for nulo, i retornará 10.
+        Console.WriteLine(i.GetValueOrDefault(0)); // Se "i for nulo, i retornará 0.
+
+        string? s = null; // ? indica que pode ser nulo.
+
+        Console.WriteLine(s ?? "Null"); // Se "s for nulo, s retornará "Null".
+        string s = null;
+
+        try
+        {
+            Console.WriteLine(s.Length);
+        }
+        catch (System.NullReferenceException exception)
+        {
+            Console.WriteLine($"Erro de referencia nula: {exception.StackTrace}");
+            throw; // break em Python.
+        }
+        */
     }
 }
